@@ -1,0 +1,120 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+</head> 
+<body> 
+    <style> 
+        *{ 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+        } 
+ 
+        .facebook-parent{ 
+            background-color: #f0f2f5; 
+            display: flex; 
+            justify-content: space-between; 
+            height: 100vh; 
+            width: 100vw; 
+            padding: 180px 170px; 
+            gap: 10px; 
+        } 
+ 
+        .facebook h1 { 
+            color: #0866ff; 
+            font-size: 58px; 
+            padding-top: 60px; 
+        } 
+ 
+        .facebook p { 
+            font-size: 36px; 
+        } 
+ 
+        .box { 
+            box-shadow: 0px 0px 15px 0px rgb(146, 145, 145); 
+            background-color: white; 
+            border:solid rgb(233, 231, 231) 2px; 
+            display: flex; 
+            justify-content: space-between; 
+            flex-direction: column; 
+            gap: 15px; 
+            padding: 30px 25px; 
+            border-radius: 10px; 
+        } 
+ 
+        .box input { 
+            padding: 12px 70px; 
+            font-size: 15px; 
+ 
+        } 
+ 
+        .login { 
+            background-color: #0866ff; 
+            color: white; 
+            padding: 12px 0px; 
+            font-size: 18px; 
+            border: none; 
+            border-radius: 6px; 
+        } 
+ 
+        .password { 
+            color: #0866ff; 
+            display: flex; 
+            justify-content: center; 
+            text-decoration: none;
+        } 
+ 
+        .account { 
+            color: white; 
+            background-color: #42b72a; 
+            border: none; 
+            margin: 20px 60px; 
+            padding: 13px 10px; 
+            border-radius: 6px; 
+            font-size: 18px; 
+        } 
+ 
+        .page { 
+            display: flex; 
+            justify-content: center; 
+            flex-direction: row; 
+            gap: 6px; 
+            padding-top: 20px; 
+        } 
+ 
+        .page a { 
+            color: black; 
+        } 
+ 
+        .line { 
+            display: flex; 
+            justify-content: center; 
+            color: rgb(230, 223, 223); 
+        } 
+ 
+    </style> 
+    <div class="facebook-parent"> 
+        <div class="facebook"> 
+            <h1>facebook</h1> 
+            <p>Facebook helps you connect and share with the people in your life.</p> 
+        </div> 
+        <div> 
+            <div class="box"> 
+                <input placeholder="Emil or Phone Number" type="text"> 
+                <input placeholder="Password" type="text"> 
+                <button class="login"><b>Log in</b></button> 
+                <a class="password" href="">Forgotten Password?</a> 
+                <div class="line">______________________________________</div> 
+                <button class="account"><b>Create new account</b></button> 
+            </div> 
+           <div class="page"> 
+            <a href=""><b>Create a page</b></a> 
+            <p>for a celebrity, brand or business</p> 
+           </div> 
+        </div> 
+    </div> 
+</body> 
+</html>
